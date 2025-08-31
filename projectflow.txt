@@ -6,3 +6,5 @@
 6. Now do "mkdir S3" (create a new S3 directory)
 7. Giving the remote path of the data storage in our case is S3 but can be URL of AWS cloud using command "dvc remote add -d myremote S3"
 8. We want that our data that is in data folder should be tracked by dvc ("dvc add data/")
+9. dvc commit and dvc push command and then commit and push github
+10. add a new record to the existing dataframe and check the status of dvc "dvc status"
